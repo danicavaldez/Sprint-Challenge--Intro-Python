@@ -8,8 +8,8 @@ class Human:
         self.name = name
         self.age = age
 
-    # def __repr__(self):
-        # return f"<Human: {self.name}, {self.age}>"
+    def __repr__(self):
+        return f"<Human: {self.name}, {self.age}>"
 
 
 humans = [
@@ -34,7 +34,7 @@ print(a)
 # Write a list comprehension that creates a list of names of everyone
 # whose name ends in "e".
 print("Ends with e:")
-b = [human.name for human in humans if human.name.startswith("e")]
+b = [human.name for human in humans if human.name.endswith("e")]
 print(b)
 
 # Write a list comprehension that creates a list of names of everyone

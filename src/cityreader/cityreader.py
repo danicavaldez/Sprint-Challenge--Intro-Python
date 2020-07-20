@@ -9,8 +9,8 @@ class City:
         self.lat = lat
         self.lon = lon
 
-    # def __str__(self):
-    #     return f'City: {self.name}\n lat: {self.lat}, lon: {self.lon}'
+    def __str__(self):
+        return f'City: {self.name}\n lat: {self.lat}, lon: {self.lon}'
 
 
 # We have a collection of US cities with population over 750,000 stored in the
